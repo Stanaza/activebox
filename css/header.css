@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&display=swap');
 
 .header {
@@ -45,12 +45,16 @@
     font-family: 'Raleway', sans-serif;
     color: #64697c;
     font-size: 2.2rem;  
+    font-weight: bold;
 }
 
 .box {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cardo', serif;
+font-family: 'Open Sans', sans-serif;
     font-size: 2.2rem;
     color: #ffffff;
+    line-height: 0.9;
+    
 }
 
 .nav__list {
@@ -71,6 +75,14 @@
 .nav__link {
     text-decoration: none;
     color: #c3c7d2;
+}
+.nav__link:hover {
+	
+    color:  hsl(0, 93%, 57%);
+    /* margin-left: 2px;
+    margin-right: 2px; */
+    
+    transition-duration: 0.4s;
 }
 
 /* ------HEAD CONTENT STYLE ------ */
@@ -109,6 +121,12 @@
     font-weight: 800;
     text-decoration: none;
     border-radius: 3px;
+}
+
+.button__link:hover {
+	font-size: 1rem;
+	background-color:  hsl(0, 93%, 57%);
+    transition-duration: 0.3s;
 }
 
 
