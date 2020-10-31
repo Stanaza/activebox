@@ -30,9 +30,12 @@
     padding-top: 30px;
     border-bottom: #4e526b solid 1.5px;
     border-radius: 2px;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 
 .activebox {
+    margin: 10px;
     display: grid;
     grid-auto-flow: column;
     justify-content: left;
@@ -41,8 +44,7 @@
 .active {
     font-family: 'Open Sans', sans-serif;
     color: #64697c;
-    font-size: 2.2rem;
-    
+    font-size: 2.2rem;  
 }
 
 .box {
@@ -52,10 +54,10 @@
 }
 
 .nav__list {
-
     display: grid;
     grid-auto-flow: column;
     list-style: none;
+    padding-right: 10px;
 }
 
 .nav__li{
@@ -77,6 +79,8 @@
     padding-top: 10%;
     padding-bottom: 10%;
     max-width: 920px;
+    padding-left: 10px;
+    padding-right: 10px;
     align-self: center;
     text-align: center;
 }
@@ -84,7 +88,6 @@
 .content__title {
     font-size: 65px;
     font-weight: 700;
-   
 }
 
 .content__discription {
