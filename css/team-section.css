@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    font-family: 'Raleway', sans-serif;
+}
+
+.team-elem {
+    padding: 20px;
+}
+
+
+.team__li {
+    list-style: none;
+}
+
+.team__name {
+    font-size: 22px;
+    color: #2D3033;
+    text-align: left;
+}
+
+.team__profession {
+    color: #E84545;
+    font-size: 13px;
+    text-align: left;
+}
+
+.team__text {
+    color: #6C7279;
+    font-size: 14px;
+    text-align: left;
+}
+
+.team__social i{
+    
+    color: #C6CACC;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid #C6CACC;
+}
+
+.team__foto {
+    width: 100%;
+}
