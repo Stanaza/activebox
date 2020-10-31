@@ -54,10 +54,28 @@
     transition-duration: 0.3s;
 }
 
-.team__foto {
+.team__photo {
     width: 100%;
 }
 
 .team-elem__list {
     font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 808px) {
+
+    .team__photo {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 539px) {
+
+    .team__photo {
+        width: 60%;
+    }
+
+    .team-elem, .team__text, .team__profession, .team__name {
+        text-align: center;
+    }  
 }
