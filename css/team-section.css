@@ -67,6 +67,10 @@
     .team__photo {
         width: 70%;
     }
+    .team-elem, .team__text, .team__profession, .team__name {
+        text-align: center;
+    }  
+
 }
 
 @media screen and (max-width: 539px) {
