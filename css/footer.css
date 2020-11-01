@@ -19,16 +19,19 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    line-height: 1.2;
 }
 
 .footer__title {
     color: #808080;
     font-family: 'Raleway', sans-serif;
     font-size: 14;
+    line-height: 1.2;
 }
 
 .footer__name {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 14;
+    line-height: 1.2;
 }
