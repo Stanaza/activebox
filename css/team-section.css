@@ -62,7 +62,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-@media screen and (max-width: 808px) {
+@media screen and (max-width: 809px) {
 
     .team__photo {
         width: 70%;
@@ -70,6 +70,13 @@
     .team-elem, .team__text, .team__profession, .team__name {
         text-align: center;
     }  
+
+    .team__text {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
 
 }
 
@@ -82,4 +89,12 @@
     .team-elem, .team__text, .team__profession, .team__name {
         text-align: center;
     }  
+
+    .team__text {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
 }
+

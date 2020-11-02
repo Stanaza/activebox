@@ -99,3 +99,22 @@
         right: 0px;
     }  
 }
+
+
+@media screen and (max-width: 1000px) {
+
+   .client-photo {
+       display: none;
+   }
+   
+}
+
+@media screen and (max-width: 550px) {
+
+   .client__text {
+       font-size: 26px;
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+    
+ }
