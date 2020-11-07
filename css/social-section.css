@@ -2,61 +2,65 @@
 
 .social-section {
     background-color: #3A3E64;
-    width: 100%;
+    width           : 100%;
 }
 
 .social-body {
-    display: grid;
+    display              : grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 72px;
-    padding-bottom: 87px;
-    padding-right: 20px;
-    padding-left: 20px;
+    grid-template-rows   : 1;
+    font-family          : 'Raleway', sans-serif;
+    padding-top          : 72px;
+    padding-bottom       : 87px;
+    padding-right        : 20px;
+    padding-left         : 20px;
+    margin               : 0 -15px;
 }
 
 .social-location {
     text-align: center;
+    padding   : 0 15px;
 }
 
 .social-share {
     text-align: center;
+    padding   : 0 15px;
 }
 
 .about {
     text-align: center;
+    padding   : 0 15px;
 }
 
-.share__icons i{
-    color: #ffffff;
+.share__icons i {
+    color    : #ffffff;
     font-size: 1rem;
-    padding: 7px;
-    border: 1px solid #ffffff;
+    padding  : 7px;
+    border   : 1px solid #ffffff;
 }
 
 .social__title {
     padding-bottom: 21px;
-    color: #ffffff;
-    font-size: 14px;
+    color         : #ffffff;
+    font-size     : 14px;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family   : 'Raleway', sans-serif;
+    font-weight   : 600;
 }
 
 .social__text {
-    color: #ffffff;
+    color      : #ffffff;
     font-family: 'Raleway', sans-serif;
-    opacity: 0.5019607843137255;
+    opacity    : 0.5019607843137255;
     line-height: 1.2;
 }
 
 
 .share__icons i:hover {
-	font-size: 1.1rem;
-    color:  hsl(0, 93%, 57%);
-    margin-left: 2px;
-    margin-right: 2px;
-    border: 1px solid hsl(0, 93%, 57%);
+    font-size          : 1.1rem;
+    color              : hsl(0, 93%, 57%);
+    margin-left        : 2px;
+    margin-right       : 2px;
+    border             : 1px solid hsl(0, 93%, 57%);
     transition-duration: 0.3s;
 }
