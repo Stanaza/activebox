@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&display=swap');
 
-
-
 .wrapper {
     width          : 100%;
     min-height     : 100%;
@@ -61,8 +59,6 @@
     margin         : 0px -15px 0 -15px;
     width          : 100%;
     align-self     : flex-start;
-
-
 }
 
 .activebox {
@@ -77,17 +73,15 @@
     font-family : 'Raleway', sans-serif;
     color       : #64697c;
     font-size   : 2.2rem;
-    font-weight : bold;
+    font-weight : bolder;
     padding-left: 10px;
 }
 
 .box {
-    font-family: 'Cardo', serif;
     font-family: 'Open Sans', sans-serif;
-    font-size  : 2.2rem;
+    font-size  : 2.15rem;
     color      : #ffffff;
-    line-height: 0.96;
-
+    line-height: 0.975;
 }
 
 .nav {
@@ -95,12 +89,11 @@
 }
 
 .nav__list {
-    display          : grid;
-    grid-auto-flow   : column;
-    list-style       : none;
-    /* padding-right : 10px; */
-    font-family      : 'Raleway', sans-serif;
-    text-align       : center;
+    display       : grid;
+    grid-auto-flow: column;
+    list-style    : none;
+    font-family   : 'Raleway', sans-serif;
+    text-align    : center;
 }
 
 .nav__li {
@@ -116,10 +109,7 @@
 }
 
 .nav__link:hover {
-
     color              : hsl(0, 93%, 57%);
-    /* margin-left     : 2px;
-    margin-right       : 2px; */
     text-shadow        : 5px 1px 10px rgba(0, 0, 0, 0.73);
     transition-duration: 0.4s;
 }
@@ -155,7 +145,6 @@
     line-height   : 33px;
     max-width     : 920px;
     padding       : 0 15px;
-
 }
 
 .content__button {
@@ -175,7 +164,7 @@
 .button__link:hover {
     font-size          : 1rem;
     background-color   : hsl(0, 93%, 57%);
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
     text-shadow        : 5px 1px 10px rgba(0, 0, 0, 0.73);
     box-shadow         : 5px 1px 10px rgba(0, 0, 0, 0.73);
 }
@@ -211,8 +200,6 @@
 
 @media screen and (max-width: 914px) {
 
-
-
     .content__subtitle {
         font-size: 14px;
         max-width: 80%;
@@ -242,13 +229,6 @@
 }
 
 @media screen and (max-width: 783px) {
-
-    /* .head-content {
-        margin: 120px -15px 160px -15px;
-
-    } */
-
-    .content__title {}
 
     .activebox {
         margin-top    : 0;
